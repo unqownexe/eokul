@@ -1,0 +1,47 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 08 Aug 2021 11:55:14 at https://eokulyd.meb.gov.tr +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://eokulyd.meb.gov.tr -O1 "C:\Users\yusuf\Desktop\EOkul" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Regular.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Bold.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Regular.ttf (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Regular.svg (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Bold? (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Bold.ttf (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:02	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/MyriadPro-Bold.svg (from https://eokulyd.meb.gov.tr/theme/able/assets/css/loginstyle.css?v=1.6)
+11:56:04	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/0123456789/ (from https://eokulyd.meb.gov.tr/sifrehatirlat.aspx)
+11:56:04	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/01/ (from https://eokulyd.meb.gov.tr/sifrehatirlat.aspx)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/SinavIslemleri/css/eokul.css (from https://eokulyd.meb.gov.tr/SinavIslemleri/BasvuruIslemleri/GSSL/SNV19019.ASPX)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/images/new/kabartma_over_d.png (from https://eokulyd.meb.gov.tr/Styles/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/POST (from https://eokulyd.meb.gov.tr/WebResource.axd?d=otK72BVMIS9hiq6k7EKqwaP-9_9UKxFRy52z6hCF3AmwkVEiVEH_sAQy92Y3GFbeeAYmjMCJitDVJ9xLSYqEeA4e62MqFRSBsPy_viHrGlM1&t=637454177640000000)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFWJ0bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFUZ0bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFWZ0bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFVp0bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFWp0bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem8YaGs126MiZpBA-UFW50bbck.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/fa-brands-400.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/fa-regular-400.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:58	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/fa-solid-900.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/fonts/cryptocoins.woff2 (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/widget/slider5.jpg (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/widget/blur-bg.png (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/loading.gif (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/prev.png (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/next.png (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/close.png (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/auth/img-auth-big.jpg (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+11:56:59	Error: 	"Not Found" (404) at link https://eokulyd.meb.gov.tr/theme/able/assets/images/complete.png (from https://eokulyd.meb.gov.tr/theme/able/assets/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 45 seconds : 127 links scanned, 90 files written (7795251 bytes overall) [6745020 bytes received at 64238 bytes/sec], 1515276 bytes transferred using HTTP compression in 35 files, ratio 25%
+(36 errors, 0 warnings, 0 messages)
