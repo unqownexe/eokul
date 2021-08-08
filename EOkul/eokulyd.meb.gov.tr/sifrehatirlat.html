@@ -1,0 +1,530 @@
+
+<!doctype html>
+<HTML>
+	
+<!-- Mirrored from eokulyd.meb.gov.tr/sifrehatirlat.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Aug 2021 08:55:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<HEAD>
+		<title>Mebbis Şifre Hatırlatma</title>
+		<base target="_self"> <!-- unutma bu postback ile alakalı-->
+		<meta content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="Styles/style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript">
+            function tarihkontrol(DateField) {
+                var checkstr = "0123456789/index.html";
+                var DateValue = DateField.value;
+                var DateTemp = "";
+
+                /* Delete all chars except 0..9 */
+                for (i = 0; i < DateValue.length; i++) {
+                    if (checkstr.indexOf(DateValue.substr(i, 1)) >= 0) {
+                        DateTemp = DateTemp + DateValue.substr(i, 1);
+                    }
+                }
+
+                if (DateTemp.length == 1) {
+                    if (DateTemp.substr(0, 1) == "index.html") {
+                        DateTemp = "01/index.html";
+                    }
+                }
+
+                if (DateTemp.length == 2) {
+                    if (DateTemp.substr(1, 1) == "index.html") {
+                        DateTemp = "0" + DateTemp.substr(0, 1) + "/";
+                    }
+
+                }
+
+                if (DateTemp.length == 3) {
+                    if (DateTemp.substr(2, 1) != "index.html") {
+                        DateTemp = DateTemp.substr(0, 2) + "/" + DateTemp.substr(2, 1);
+                    }
+                }
+
+                if (DateTemp.length == 4) {
+                    if (DateTemp.substr(3, 1) == "index.html") {
+                        DateTemp = DateTemp.substr(0, 3);
+                    }
+
+                }
+
+                if (DateTemp.length == 5) {
+                    if (DateTemp.substr(4, 1) == "index.html") {
+                        DateTemp = DateTemp.substr(0, 3) + "0" + DateTemp.substr(3, 2);
+                    }
+
+                }
+
+                if (DateTemp.length == 6) {
+                    if (DateTemp.substr(5, 1) != "index.html") {
+                        DateTemp = DateTemp.substr(0, 5) + "/" + DateTemp.substr(5, 1);
+                    }
+
+                }
+
+                if (DateTemp.length > 10) {
+                    DateTemp = DateTemp.substr(0, 10);
+                    if (DateTemp.indexOf('index.html') < 2)
+                        DateTemp = '';
+                }
+
+
+                DateField.value = DateTemp;
+                return true;
+
+            }
+        </script>
+
+	    <style type="text/css">
+            .auto-style1 {
+                height: 37px;
+            }
+            .auto-style2 {
+                width: 222px;
+            }
+            .auto-style4 {
+                height: 14px;
+                width: 222px;
+            }
+            .auto-style5 {
+                height: 37px;
+                width: 134px;
+            }
+            .auto-style6 {
+                height: 37px;
+                width: 222px;
+            }
+            .auto-style9 {
+                height: 14px;
+                width: 16px;
+            }
+            .auto-style13 {
+                width: 16px;
+            }
+            .auto-style14 {
+                height: 37px;
+                width: 1px;
+            }
+            .auto-style16 {
+                height: 37px;
+                width: 16px;
+            }
+            .auto-style17 {
+                height: 37px;
+                width: 774px;
+            }
+            .auto-style18 {
+                width: 774px;
+            }
+            .auto-style19 {
+                height: 14px;
+                width: 774px;
+            }
+            .auto-style20 {
+                width: 15px;
+            }
+            .auto-style23 {
+                height: 22px;
+            }
+            .auto-style26 {
+                width: 193px;
+            }
+            .auto-style27 {
+                color: #006600;
+            }
+            .auto-style28 {
+                height: 829px;
+            }
+            .auto-style33 {
+                height: 1px;
+            }
+            .auto-style34 {
+                height: 1px;
+                width: 16px;
+            }
+            .auto-style35 {
+                height: 1px;
+                width: 222px;
+            }
+            .auto-style36 {
+                height: 1px;
+                width: 774px;
+            }
+            </style>
+	</HEAD>
+	<body bottomMargin="0" leftMargin="0" topMargin="0" rightMargin="0">
+		<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td vAlign="top" width="100%">
+					<table id="Table2" cellSpacing="0" cellPadding="0" width="100%" border="0">
+						<tr>
+							<td vAlign="top" align="left" width="130"></td>
+							<td vAlign="top" align="left" width="100%">
+								<form method="post" action="https://eokulyd.meb.gov.tr/sifrehatirlat.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="frmNoname">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="10" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNjQyMjc0" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="MDAPZBYCAgEPZBYCAgkP" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="ZBYEZg9kFgICAw9kFgIC" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="AQ8PFgIeBFRleHRlZGQC" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="AQ9kFgICAw9kFgICAQ8P" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="FgIeCEltYWdlVXJsBRdn" />
+<input type="hidden" name="__VIEWSTATE6" id="__VIEWSTATE6" value="dXZlbmxpa2tvZC5hc3B4" />
+<input type="hidden" name="__VIEWSTATE7" id="__VIEWSTATE7" value="P2lkPTM2OGRkZCW8Qlap" />
+<input type="hidden" name="__VIEWSTATE8" id="__VIEWSTATE8" value="6Lqt2wVp2iEtnA9dN4ZW" />
+<input type="hidden" name="__VIEWSTATE9" id="__VIEWSTATE9" value="sDkoOtsuhY6tWFYz" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmNoname'];
+if (!theForm) {
+    theForm = document.frmNoname;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResource4949.js?d=otK72BVMIS9hiq6k7EKqwaP-9_9UKxFRy52z6hCF3AmwkVEiVEH_sAQy92Y3GFbeeAYmjMCJitDVJ9xLSYqEeA4e62MqFRSBsPy_viHrGlM1&amp;t=637454177640000000" type="text/javascript"></script>
+
+
+<script src="WebResource65f4.js?d=WaT-GQPNVSPCSsItWNJHrMFbbn4WH1QIsCcR_syhGEmr57dIRiEOvGNYlZO2uZFxNgOVhmEhXbrkHCEVFOw1_nzUaupwEK0JCYgjAO9270qArDVT8saTdquShpomRL8a0&amp;t=637454177640000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E0A90F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAp6p4EpWN4y+Z+OI1ZmDDbnC0il8W41PQq6fEZHvxKrRXgjhSuy51K80eHzn5F4LjXFFXTJmwuheWsc71ciMfAWaJWoScBHc1i5V/LeNpmhstYHJIHq+qMzf/EdOoxZwLZeSCNGf50HCN84O2qzOF3GbRTFDu8hyx95DNr7cZnjighP570QDsOZXr57YDMkhtcCn6ZYnORwD9o3Zuoe5mui3FegytZzykWshyta1c+hVhUHLl/QvpL9KAwSxgqZsro=" />
+</div>
+									&nbsp;
+									<table class="frmDis" cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">
+										<tbody>
+											<tr>
+												<td colSpan="3">
+													<table class="frmBaslik" cellSpacing="0" cellPadding="2" width="100%" border="0">
+														<tr>
+															<td>Şifre Hatırlatma İşlemleri</td>
+															<td></td>
+															<td align="right"></td>
+														</tr>
+													</table>
+													<input name="hdnKullaniciAdi" type="hidden" id="hdnKullaniciAdi" />
+													<input name="hdnDegistir" type="hidden" id="hdnDegistir" value="0" />
+												</td>
+											</tr>
+											<tr>
+												<td class="frmDisToolbar" colSpan="3" height="10"></td>
+											</tr>
+											
+											<tr>
+												<td height="10" class="auto-style20"></td>
+												<td width="95%" height="10"></td>
+												<td width="15" height="10"></td>
+											</tr>
+											<TR>
+												<TD height="10" class="auto-style20">
+												</TD>
+												<TD width="95%" height="10">
+													Sayın e-Okul Kullanıcısı,
+													<br>
+													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bu bölümü şifrenizi unuttuğunuzda kullanabilirsiniz. Şifrenizi tekrar belirlemek için aşağıda 
+                                                    gereken bilgileri doldurmanız gerekmektedir. Bilgiler doğru ise kullanıcınıza bağlı Cep Telefonunuza onay SMS gönderilecek ve yeni şifrenizi belirleyebileceğiniz bölüm açılacaktır.&nbsp;
+													<ul>
+														<li>Şifrenizin sadece numaralardan veya sadece harflerden oluşmamasına, harf, 
+														numara ve noktalama işaretlerini içermesine dikkat ediniz.
+                                                            </li>
+														</ul>
+												    <p>
+                                                        &nbsp;</p>
+												</TD>
+												<TD width="15" height="10"></TD>
+											</TR>
+											<TR>
+												<TD height="10" class="auto-style20"></TD>
+												<TD width="95%" style="text-align: center">
+                                                    <a id="HyperLink1" href="https://e-okul.meb.gov.tr/">e-Okul Giriş Sayfasına Dönmek İçin Tıklayınız.</a>
+                                                </TD>
+												<TD width="15"></TD>
+											</TR>
+											<tr>
+												<td class="auto-style28" ></td>
+												<td align="center" style="vertical-align: top; height: 100%;">
+													<table id="TableSifre" class="frmListKucuk" cellspacing="1" cellpadding="1" border="0" style="width: 800px">
+	<tr>
+		<TD class="auto-style16"></TD>
+		<TD align="left" class="auto-style6"></TD>
+		<TD class="auto-style1"></TD>
+		<TD align="left" class="auto-style17">
+                                                                <span id="lblMesaj" style="color:Red;font-weight:bold;"></span>
+                                                            </TD>
+		<TD class="auto-style14"></TD>
+	</tr>
+	<tr>
+		<TD height="5" class="auto-style13">&nbsp;</TD>
+		<TD align="right" height="5" class="auto-style2">&nbsp;</TD>
+		<TD height="5" class="auto-style1">&nbsp;</TD>
+		<TD align="left" height="5" class="auto-style18">
+                                                        <img id="image1" alt="" border="0" name="imgKontrol" src="hata_yakalaf61d.html?id=368" style="height:40px;width:100px;" />
+                                                            </TD>
+		<TD height="5">&nbsp;</TD>
+	</tr>
+	<tr>
+		<TD height="5" class="auto-style13">&nbsp;</TD>
+		<TD align="right" height="5" class="auto-style2">Güvenlik Kodu: </TD>
+		<TD height="5" class="auto-style1">&nbsp;</TD>
+		<TD align="left" height="5" class="auto-style18">
+                                                        <input name="txtGuvenlikKodu" type="text" maxlength="4" id="txtGuvenlikKodu" class="frmInput2" style="width:84px;" />
+                                                                &nbsp;&nbsp;
+                                                                <span id="RequiredFieldValidator2" style="visibility:hidden;">*</span>
+&nbsp;&nbsp;
+                                                                
+<img src="images/giriskod.jpg"  onclick="ses();" alt="Rakamları Dinlemek İçin Tıklayınız..." tabIndex="4" onkeypress="return runScript(event)"/>
+<div id="sesler" style="visibility:hidden">
+<audio id='aPlayer' controls hidden>
+    <source src='common/soundogg0e88.html?dc=368' type='audio/ogg'> 
+    <source src='common/soundmp30e88.html?dc=368' type='audio/mpeg'></audio>
+<script>
+    function ses() {
+        var aPlayer0 = document.getElementById('aPlayer');
+        aPlayer.load();
+        aPlayer.play();
+    }
+
+    function runScript(e) {
+        if (e.keyCode == 13) {
+            ses();
+            return false;
+        }
+    }
+</script>
+</div>
+                                                                <span id="RegularExpressionValidator1" style="visibility:hidden;">Yukarıdaki Kodu Giriniz</span>
+                                                            </TD>
+		<TD height="5">&nbsp;</TD>
+	</tr>
+	<tr>
+		<TD height="5" class="auto-style13">&nbsp;</TD>
+		<TD align="right" height="5" class="auto-style2">Kullanıcı Adı:</TD>
+		<TD height="5" class="auto-style1">&nbsp;</TD>
+		<TD align="left" height="5" class="auto-style18">
+																<input name="txtKullaniciAdi" type="text" maxlength="20" id="txtKullaniciAdi" class="frmInput2" style="width:260px;" />
+                                                                <span id="RequiredFieldValidator1" style="visibility:hidden;">*</span>
+                                                            </TD>
+		<TD height="5">&nbsp;</TD>
+	</tr>
+	<tr>
+		<td class="auto-style16"></td>
+		<td align="right" class="auto-style6">Cep Telefonu:
+															</td>
+		<td class="auto-style1"></td>
+		<td align="left" class="auto-style17">
+																<input name="txtCepTelefonu" type="number" maxlength="10" id="txtCepTelefonu" class="frmInput2" style="width:169px;" />
+                                                                <span id="RequiredFieldValidator3" style="visibility:hidden;">*</span>
+                                                                (Başında sıfır olmadan)
+                                                                <span id="RegularExpressionValidator2" style="visibility:hidden;">Cep Telefonu Giriniz</span>
+                                                            </td>
+		<td class="auto-style1"></td>
+	</tr>
+	<tr>
+		<td class="auto-style9"></td>
+		<td align="right" class="auto-style4">T.C. Kimlik No:</td>
+		<td></td>
+		<td align="left" class="auto-style19">
+																<input name="txtTCKimlikNo" type="number" maxlength="11" id="txtTCKimlikNo" class="frmInput2" style="width:201px;" />
+                                                                <span id="RequiredFieldValidator4" style="visibility:hidden;">*</span>
+                                                                <span id="RegularExpressionValidator3" style="visibility:hidden;">T.C. Kimlik No Giriniz</span>
+                                                            </td>
+		<td style="HEIGHT: 14px"></td>
+	</tr>
+	<tr>
+		<td class="auto-style13"></td>
+		<td align="right" class="auto-style2">Doğum Tarihi:
+															</td>
+		<td class="auto-style1"></td>
+		<td align="left" class="auto-style18">
+																<input name="txtDogumTarihi" type="text" maxlength="10" id="txtDogumTarihi" class="frmInput2" onkeyup="javascript:return tarihkontrol(this);" style="width:150px;" />
+                                                                <span id="RequiredFieldValidator5" style="visibility:hidden;">*</span>
+                                                                (GG/AA/YYYY) 
+                                                                <span id="RegularExpressionValidator4" style="visibility:hidden;">Doğum Tarihi Giriniz</span>
+                                                            </td>
+		<td></td>
+	</tr>
+	<tr>
+		<td class="auto-style16"></td>
+		<td align="right" class="auto-style2">Yakın T.C. No:</td>
+		<td></td>
+		<td align="left" class="auto-style17">
+																<input name="txtYakinTCNo" type="number" maxlength="11" id="txtYakinTCNo" class="frmInput2" style="width:199px;" />
+                                                                <span id="RequiredFieldValidator7" style="visibility:hidden;">*</span>
+                                                                (Aile Bireylerinden Biri)<span id="RegularExpressionValidator5" style="visibility:hidden;">T.C. Kimlik No Giriniz</span>
+                                                            </td>
+		<td class="auto-style5"></td>
+	</tr>
+	<tr>
+		<TD class="auto-style34"></TD>
+		<TD class="auto-style35"></TD>
+		<TD class="auto-style33"></TD>
+		<TD align="left" class="auto-style36"></TD>
+		<TD class="auto-style33"></TD>
+	</tr>
+	<tr>
+		<td class="auto-style13"></td>
+		<td class="auto-style2">
+																<p align="left"></p>
+															</td>
+		<td class="auto-style1"></td>
+		<td align="left" class="auto-style18"><input type="submit" name="btnSorgula" value="Sorgula" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSorgula&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnSorgula" class="submitButton" style="height:40px;width:151px;" /></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td height="5" class="auto-style13"></td>
+		<td align="left" colspan="3" height="5"></td>
+		<td height="5"></td>
+	</tr>
+</table>
+
+                                                    
+
+                                                    
+												</td>
+												<td class="auto-style28"></td>
+											</tr>
+											<tr>
+												<td height="10" class="auto-style20"></td>
+												<td height="10">
+                                                    
+                                                </td>
+												<td height="10"></td>
+											</tr>
+										</tbody>
+									</table>
+									
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator2"), document.getElementById("RegularExpressionValidator1"), document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator3"), document.getElementById("RegularExpressionValidator2"), document.getElementById("RequiredFieldValidator4"), document.getElementById("RegularExpressionValidator3"), document.getElementById("RequiredFieldValidator5"), document.getElementById("RegularExpressionValidator4"), document.getElementById("RequiredFieldValidator7"), document.getElementById("RegularExpressionValidator5"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "txtGuvenlikKodu";
+RequiredFieldValidator2.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RegularExpressionValidator1 = document.all ? document.all["RegularExpressionValidator1"] : document.getElementById("RegularExpressionValidator1");
+RegularExpressionValidator1.controltovalidate = "txtGuvenlikKodu";
+RegularExpressionValidator1.errormessage = "RegularExpressionValidator";
+RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator1.validationexpression = "\\d{4}";
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtKullaniciAdi";
+RequiredFieldValidator1.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+RequiredFieldValidator3.controltovalidate = "txtCepTelefonu";
+RequiredFieldValidator3.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator3.initialvalue = "";
+var RegularExpressionValidator2 = document.all ? document.all["RegularExpressionValidator2"] : document.getElementById("RegularExpressionValidator2");
+RegularExpressionValidator2.controltovalidate = "txtCepTelefonu";
+RegularExpressionValidator2.errormessage = "RegularExpressionValidator";
+RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator2.validationexpression = "\\d{10}";
+var RequiredFieldValidator4 = document.all ? document.all["RequiredFieldValidator4"] : document.getElementById("RequiredFieldValidator4");
+RequiredFieldValidator4.controltovalidate = "txtTCKimlikNo";
+RequiredFieldValidator4.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator4.initialvalue = "";
+var RegularExpressionValidator3 = document.all ? document.all["RegularExpressionValidator3"] : document.getElementById("RegularExpressionValidator3");
+RegularExpressionValidator3.controltovalidate = "txtTCKimlikNo";
+RegularExpressionValidator3.errormessage = "RegularExpressionValidator";
+RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator3.validationexpression = "\\d{11}";
+var RequiredFieldValidator5 = document.all ? document.all["RequiredFieldValidator5"] : document.getElementById("RequiredFieldValidator5");
+RequiredFieldValidator5.controltovalidate = "txtDogumTarihi";
+RequiredFieldValidator5.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator5.initialvalue = "";
+var RegularExpressionValidator4 = document.all ? document.all["RegularExpressionValidator4"] : document.getElementById("RegularExpressionValidator4");
+RegularExpressionValidator4.controltovalidate = "txtDogumTarihi";
+RegularExpressionValidator4.errormessage = "RegularExpressionValidator";
+RegularExpressionValidator4.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator4.validationexpression = "(^((((0[1-9])|([1-2][0-9])|(3[0-1]))|([1-9]))\\x2F(((0[1-9])|(1[0-2]))|([1-9]))\\x2F(([0-9]{2})|(((19)|([2]([0]{1})))([0-9]{2}))))$)";
+var RequiredFieldValidator7 = document.all ? document.all["RequiredFieldValidator7"] : document.getElementById("RequiredFieldValidator7");
+RequiredFieldValidator7.controltovalidate = "txtYakinTCNo";
+RequiredFieldValidator7.errormessage = "RequiredFieldValidator";
+RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator7.initialvalue = "";
+var RegularExpressionValidator5 = document.all ? document.all["RegularExpressionValidator5"] : document.getElementById("RegularExpressionValidator5");
+RegularExpressionValidator5.controltovalidate = "txtYakinTCNo";
+RegularExpressionValidator5.errormessage = "RegularExpressionValidator";
+RegularExpressionValidator5.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator5.validationexpression = "\\d{11}";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td vAlign="bottom" align="center" width="100%">
+					
+<LINK href="css/eokul.css" type="text/css" rel="stylesheet">
+<TABLE id="Table1" width="100%" border="0">
+	<TR>
+		<td align="center" class="bodytext">
+			Tüm hakları Milli Eğitim Bakanlığına aittir.
+		</td>
+		<!--<TD align="right" width="100%"><IMG src="../images/sonlandirici.jpg"></TD>-->
+	</TR>
+</TABLE>
+</td>
+			</tr>
+		</table>
+	</body>
+
+<!-- Mirrored from eokulyd.meb.gov.tr/sifrehatirlat.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Aug 2021 08:55:54 GMT -->
+</HTML>
