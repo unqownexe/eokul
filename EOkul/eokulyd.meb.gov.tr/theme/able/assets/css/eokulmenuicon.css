@@ -1,0 +1,76 @@
+﻿/*ana menü iconları*/
+/*#modulMenuNew_menu i:before{
+    font-family: "Font Awesome 5 Free"!important;
+}*/
+
+.OOK01000:before {content: "\f304";}
+.mdlIOM:before {content: "\f1ae";}
+.mdlAOO:before {content: "\f1ae";}
+.mdlAOK:before {content: "\f54f";}
+.mdlIOM:before {content: "\f1ad";}
+.mdlIOK:before {content: "\f108";}
+.mdlIOO:before {content: "\f4ff";}
+.mdlAKS:before {content: "\f29a";}
+.mdlOKA:before {content: "\f305";}
+.mdlOOK:before {content: "\f549";}
+.mdlOOO:before {
+content: "\f51c";
+}
+.mdlOOM:before {
+content: "\f51b";
+}
+.mdlSNV:before {
+content: "\f573";
+}
+.mdlIOV:before {
+content: "\f500";
+}
+.mdlYON:before {
+content: "\f085";
+}
+/*mobil butonlar*/
+.bg-c-butonIOM{  background-color: #9ccc65;}
+.bg-c-butonAOO{  background-color: #ff5252;}
+.bg-c-butonAOK{  background-color: #4680ff;}
+.bg-c-butonIOK{  background-color: #ffba57;}
+.bg-c-butonIOO{  background-color: #536dfe;}
+.bg-c-butonAKS{  background-color: #cc65c6;}
+.bg-c-butonOKA{  background-color: #65ccc0;}
+.bg-c-butonOOK{  background-color: #ccbd65;}
+.bg-c-butonOOM{  background-color: #4c3009;}
+.bg-c-butonOOO{  background-color: #9ccc65;}
+.bg-c-butonSNV{  background-color: #ff5252;}
+.bg-c-butonIOV{  background-color: #ffba57;}
+.bg-c-butonYON{  background-color: #536dfe;}
+/*ana menü iconları son*/
+
+
+/*bakanlık/mem işlemleri*/
+.mdlIOM01000:before { content: "\f015";}
+.mdlIOM03000:before { content: "\f689";}
+.mdlIOM04000:before { content: "\f59d";}
+.mdlIOM05000:before { content: "\f362";}
+.mdlIOM06000:before { content: "\f304";}
+.mdlIOM07000:before,.mdlIOM33000:before { content: "\f4ff";}
+.mdlIOM08000:before { content: "\f126";}
+.mdlIOM09000:before { content: "\f51c";}
+.mdlIOM10000:before { content: "\f6f1";}
+.mdlIOM11000:before { content: "\f5b6";}
+.mdlIOM12000:before { content: "\f235";}
+.mdlIOM13000:before { content: "\f1ae";}
+.mdlIOM14000:before { content: "\f1ad";}
+.mdlIOM15000:before { content: "\f4ce";}
+.mdlIOM16000:before { content: "\f277";}
+.mdlIOM27000:before { content: "\f5a0";}
+.mdlIOM30000:before { content: "\f02d";}
+.mdlIOM17000:before { content: "\f4ff";}
+.mdlIOM18000:before { content: "\f0ad";}
+.mdlIOM19000:before { content: "\f501";}
+.mdlIOM21000:before { content: "\f1da";}
+.mdlIOM22000:before,.mdlIOM31000:before { content: "\f02f";}
+.mdlIOM24000:before { content: "\f5da";}
+.mdlIOM23000:before { content: "\f64f";}
+.mdlIOM25000:before { content: "\f45d";}
+.mdlIOM26000:before { content: "\f21e";}
+.mdlIOM28000:before { content: "\f002";}
+/*bakanlık/mem işlemleri*/

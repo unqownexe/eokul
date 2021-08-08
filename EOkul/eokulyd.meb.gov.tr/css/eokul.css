@@ -1,0 +1,41 @@
+.bodytext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+}
+h4 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.baslik {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	filter: Blur(Add=1, Direction=1, Strength=2);
+
+}
+p {
+	line-height: 1.3em;
+}
+.kirmizibaslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #EE2A24;
+	font-weight: 400;
+}
+.kullanicigiris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.formeleman {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	height: 16px;
+	vertical-align: middle;
+}
+.formelemanbuton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	height: auto;
+}
